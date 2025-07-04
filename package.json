@@ -5,10 +5,11 @@
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
+    "export" : "next export"
     "start": "next start",
     "lint": "next lint",
-    "actualBuild": "next build && next export"
+    "actualBuild": "next build"
   },
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {
